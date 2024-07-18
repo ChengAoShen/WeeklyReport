@@ -1,0 +1,20 @@
+/* @theme am_uh */
+
+@import 'am_template';
+
+:root {
+  --color-code-bg: #f6eeef;
+  --color-coverbg: #b72b35;
+  --color-few: #53a7a0;
+  --color-footer: #8c8c8c;
+  --color-main: #211112;
+  --color-much: #864248;
+  --color-navbar-bg: #b72b35;
+  --color-navbar-font: rgb(178, 171, 168);
+  --color-quote: rgba(254, 176, 98, 0.1);
+  --color-title: rgb(255, 255, 255);
+  --color-trans: #b72b35;
+  --filter-b: brightness(30%) contrast(70%) grayscale(100%);
+  --filter-c: brightness(0%) contrast(60%) grayscale(80%);
+  --filter-e: brightness(0%) contrast(70%) grayscale(100%);
+}

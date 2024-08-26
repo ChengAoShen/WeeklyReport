@@ -135,7 +135,7 @@ Furthermore, DYNOTEAR set to thresholding $\tau_\mathbf{W},\tau_\mathbf{A}$ to c
 <!-- _header: \ ***Weekly Report*** **DYNOTRAES** *Datasets* *LLMs in Causal Discovery* *Discussion* -->
 ### 1.4 Question
 
-- How to obtain the causal graph from $\mathbf{W,A}$？
+- How to obtain the causal graph from $\mathbf{W,A}$?
 - Does this method build the causal graph having each note across every time?
 - This final step of optimization.
 
@@ -188,9 +188,9 @@ This paper separate the generation of two types of test datasets:
 <!-- _class: navbar-->
 <!-- _header: \ ***Weekly Report*** *DYNOTRAES* **Datasets** *LLMs in Causal Discovery* *Discussion* -->
 
-### 2.3 LEMMA-RLEMMA-RCA Structured (Product Review)
+### 2.3 LEMMA-RCA Structured (Product Review)
 
-Here are some problems about the LEMMA-RLEMMA-RCA dataset when formatting the data:
+Here are some problems about the LEMMA-RCA dataset when formatting the data:
 
 - What is the difference between 'Book_Info_product' and 'Book_Info_product_testuseer'?
 - 20211203 has more datas than others.
@@ -204,7 +204,7 @@ Here are some problems about the LEMMA-RLEMMA-RCA dataset when formatting the da
 <!-- _class: navbar-->
 <!-- _header: \ ***Weekly Report*** *DYNOTRAES* **Datasets** *LLMs in Causal Discovery* *Discussion* -->
 
-### 2.3 LEMMA-RLEMMA-RCA Structured (Cloud Computing)
+### 2.3 LEMMA-RCA Structured (Cloud Computing)
 
 - What's metric_error and metric_latency?
 - Different days have various data structure, such as `20231221` missing node data, `20231207` don't includ metric_error and metric_latency.
@@ -224,7 +224,6 @@ Here are some problems about the LEMMA-RLEMMA-RCA dataset when formatting the da
 ### 3.1 Overview
 
 <div class="ldiv">
-
 This method synthesis the LLMs which can inference the causal by domain knowledge and traditional statistical methods.
 The overall workflow includings:
 

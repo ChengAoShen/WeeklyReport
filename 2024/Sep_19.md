@@ -165,15 +165,3 @@ print(labels)
    ```
 
 3. The method's prompt and code can't be used in various datasets. How to optimized this?
-
-
-
-加入消融实验（没有LLMs的，没有Log的，）
-
-加入uncertainty estimation的测试（画graph）
-
-
-
-
-
-three public datasets: Auto mpg (Quinlan 1993), SACHS (Sachs et al. 2005), and GAIA (Generic AIOps Atlas) (AIOps community 2022). Auto mpg and SACHS are commonly used benchmarks in causal discovery, while GAIA is an anomaly detection dataset from a microservice application. We used the ground truth causal graphs from Takayama et al.(2024) for Auto mpg, and the provided ground truth graphs for SACHS and GAIA. The target variables were mpg, akt, and webservice for the three datasets, respectively. Detailed dataset descriptions and preprocessing methods are provided in the Supplementary Material.
